@@ -5,7 +5,7 @@ Use logs to capture metrics.  This can help us with debugging.
 ### Screenshots
 To verify that user activity is logged, please include a screenshot of:
 
-```bash
+```bash 
 kubectl logs <your pod name>
 ```
 
