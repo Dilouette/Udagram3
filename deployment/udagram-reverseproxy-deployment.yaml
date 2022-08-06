@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: udagram-api-user
+  name: udagram-reverseproxy
   labels:
-    app: udagram-api-user
+    app: udagram-reverseproxy
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: udagram-api-user
+      app: udagram-reverseproxy
   template:
     metadata:
       labels:
-        app: udagram-api-user
+        app: udagram-reverseproxy
     spec:
       containers:
-      - name: udagram-api-user
-        image: iamdilouette/udagram-api-user:v4
+      - name: udagram-reverseproxy
+        image: iamdilouette/udagram-reverseproxy:v6
         ports:
         - containerPort: 80

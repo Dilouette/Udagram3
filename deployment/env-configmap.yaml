@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  POSTGRES_HOST: postgres.c9hramhvqqqr.us-east-2.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  AWS_BUCKET: udagram3-858897843054-s3
+  AWS_REGION: us-east-2
+  AWS_PROFILE: default
+  JWT_SECRET: hello
+  URL: http://localhost:8100
+metadata:
+  name: env-config
