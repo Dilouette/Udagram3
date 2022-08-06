@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: udagram-reverseproxy
-        image: iamdilouette/udagram-reverseproxy:v8
+        image: iamdilouette/udagram-reverseproxy:v9
         ports:
         - containerPort: 80
