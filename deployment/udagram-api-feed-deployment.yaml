@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: udagram-api-feed
-        image: iamdilouette/udagram-api-feed:v9
+        image: iamdilouette/udagram-api-feed:v10
         ports:
         - containerPort: 80

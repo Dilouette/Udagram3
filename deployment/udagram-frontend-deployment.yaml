@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: udagram-frontend
-        image: iamdilouette/udagram-frontend:v9
+        image: iamdilouette/udagram-frontend:v10
         ports:
         - containerPort: 80
